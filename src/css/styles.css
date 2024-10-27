@@ -62,3 +62,101 @@ li:hover {
   border-radius: 12px;
   font-family: "poppins";
 }
+
+.section-1 {
+  display: flex;
+  max-width: 1640px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+  gap: 20px;
+}
+
+.sidebar {
+  background-color: #f8f8f8;
+  width: 395px;
+  height: 751px;
+  padding: 32px;
+}
+
+form {
+  max-width: 395px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="checkbox"] {
+  accent-color: #29b24e;
+}
+
+.Location {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.Property {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 32px;
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.Property-headline {
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.Price-range {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 32px;
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.Price-range-headline {
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.Find {
+  max-width: 1225px;
+  width: 100%;
+  margin: 0 auto;
+  background-image: url(../images/Rectangle-400.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.find-1 {
+  margin: 60px 0 10px 0;
+  font-family: "poppins";
+  font-weight: 600;
+  font-size: 48px;
+}
+
+.find-2 {
+  margin: 0 0 40px 0;
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.find-3 {
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 14px;
+}
