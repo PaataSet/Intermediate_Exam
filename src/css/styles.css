@@ -17,10 +17,8 @@ img {
   max-width: 100%;
 }
 
-.fonts {
-  font-family: "Poppins";
-  font-size: 48px;
-  font-weight: 600;
+body {
+  background-color: #f2f2f2;
 }
 
 header {
@@ -37,7 +35,7 @@ header {
   max-width: 48px;
 }
 
-ul {
+header ul {
   display: flex;
   gap: 48px;
   font-family: "poppins";
@@ -45,11 +43,11 @@ ul {
   font-size: 14px;
 }
 
-li {
+header li {
   padding-bottom: 8px;
 }
 
-li:hover {
+header li:hover {
   border-bottom: 2px solid #29b24e;
 }
 
@@ -206,7 +204,7 @@ input[type="checkbox"] {
 
 .cards-title {
   margin-top: 32px;
-  background-color: aquamarine;
+  background-color: #f2f2f2;
   grid-column: 1 / span 4;
   font-family: "poppins";
   font-weight: 500;
@@ -298,4 +296,54 @@ h4 {
   font-family: "poppins";
   font-weight: 400;
   font-size: 14px;
+}
+
+footer {
+  background-color: #29b24e;
+  display: flex;
+  flex-direction: column;
+  max-width: 1640px;
+  width: 100%;
+  margin: 120px auto 0 auto;
+  padding: 10px;
+}
+
+.footer-contact {
+  padding: 32px 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #d0d0d0;
+}
+
+.footer-nav ul {
+  display: flex;
+  gap: 40px;
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.mail a {
+  color: #ffffff;
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.footer-nav a {
+  color: #ffffff;
+}
+
+.copyright {
+  color: #ffffff;
+  padding: 32px 0;
+  display: flex;
+  justify-content: center;
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.copyright a {
+  color: #ffffff;
 }
