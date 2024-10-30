@@ -31,6 +31,7 @@ body {
 }
 
 .info {
+  box-shadow: 18px 18px 18px #ff00004d;
   border: 1px solid black;
   border-radius: 24px;
   background-color: #f8f8f8;
@@ -40,6 +41,12 @@ body {
   padding: 30px 40px 28px 40px;
   display: flex;
   flex-direction: column;
+}
+
+.posted {
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 12px;
 }
 
 .info-header {
@@ -67,4 +74,129 @@ body {
   font-family: "poppins";
   font-weight: 600;
   font-size: 22px;
+  margin: 24px 0 12px 0;
+}
+
+.internal-paragraph-1 {
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 14px;
+  margin: 0 0 32px 0;
+}
+
+.internal-paragraph-2 {
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 14px;
+  margin: 0 0 40px 0;
+  max-width: 611px;
+}
+
+.lite-describe {
+  border: 1px solid black;
+  padding: 16px 0;
+  display: flex;
+  gap: 24px;
+}
+
+.lite-describe-paragraph {
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 14px;
+  padding: 16px auto;
+}
+
+.describe {
+  border: 1px solid black;
+  max-width: 706px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  /* gap: 30px; */
+  padding: 24px 0;
+}
+
+.describe-1 {
+  border: 1px solid black;
+  max-width: 200px;
+}
+
+h5 {
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 14px;
+  margin: 14px 0 4px 0;
+}
+
+.describe-1 p {
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.price-section {
+  border: 1px solid black;
+
+  margin: 27px 0 28px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price-section p {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.price-internal {
+  border: 1px solid black;
+  color: #29b24e;
+  font-family: "poppins";
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.price-card {
+  color: #29b24e;
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.contact-buttons {
+  display: flex;
+  justify-content: end;
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 12px;
+  gap: 16px;
+}
+
+.contact-button-1 {
+  background-color: #f8f8f8;
+  color: #29b24e;
+  width: 153px;
+  height: 47px;
+  border: 1px solid #29b24e;
+  border-radius: 12px;
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.contact-button-2 {
+  background-color: #29b24e;
+  color: #ffffff;
+  width: 80px;
+  height: 47px;
+  border: 1px solid #29b24e;
+  border-radius: 12px;
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 14px;
 }
