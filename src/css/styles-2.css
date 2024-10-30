@@ -31,16 +31,27 @@ body {
 }
 
 .info {
-  box-shadow: 18px 18px 18px #ff00004d;
+  /* box-shadow: 18px 18px 18px #ff00004d; */
   border: 1px solid black;
-  border-radius: 24px;
-  background-color: #f8f8f8;
+  /* border-radius: 24px; */
+  /* background-color: #f8f8f8; */
   max-width: 786px;
   width: 100%;
   margin: 0 auto;
   padding: 30px 40px 28px 40px;
   display: flex;
   flex-direction: column;
+  /* Rectangle 597 */
+
+  /* position: absolute;
+width: 786px;
+height: 732px;
+left: 994px;
+top: 146px; */
+
+  /* background: #f8f8f8; */
+  box-shadow: 0px 4px 18px rgba(194, 194, 194, 0.3);
+  border-radius: 24px;
 }
 
 .posted {
