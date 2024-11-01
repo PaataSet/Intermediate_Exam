@@ -74,7 +74,8 @@ header li:hover {
 .sidebar {
   background-color: #f8f8f8;
   max-width: 395px;
-  height: 751px;
+  max-height: 751px;
+  overflow: auto;
   padding: 32px;
   border-radius: 24px;
   box-shadow: 0px 4px 25px rgba(194, 194, 194, 0.31);
@@ -89,6 +90,19 @@ form {
 
 input[type="checkbox"] {
   accent-color: #29b24e;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #29b24e;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #29b24e;
+  content: url(../images/Frame-4.png);
+  width: 14px;
+  height: 14px;
 }
 
 .Location {
@@ -213,6 +227,11 @@ input[type="checkbox"] {
   font-size: 18px;
 }
 
+.a-hover:hover {
+  /* border: 2px solid #29b24e; */
+  opacity: 0.5;
+}
+
 .card {
   background-color: #cfead6;
   max-height: 424px;
@@ -317,9 +336,21 @@ footer {
   background-color: #29b24e;
   display: flex;
   flex-direction: column;
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 25px;
+  margin: 120px auto 0 auto;
+  /* padding: 10px; */
+}
+
+.footer-container {
+  background-color: #29b24e;
+  display: flex;
+  flex-direction: column;
   max-width: 1640px;
   width: 100%;
-  margin: 120px auto 0 auto;
+  margin: 0 auto;
   padding: 10px;
 }
 

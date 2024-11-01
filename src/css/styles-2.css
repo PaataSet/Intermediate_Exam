@@ -265,6 +265,11 @@ h5 {
   font-size: 18px;
 }
 
+.a-hover-internal:hover {
+  /* border: 2px solid #29b24e; */
+  opacity: 0.5;
+}
+
 .card-internal {
   background-color: aquamarine;
   max-height: 424px;
@@ -375,9 +380,21 @@ footer {
   background-color: #29b24e;
   display: flex;
   flex-direction: column;
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 25px;
+  margin: 120px auto 0 auto;
+  /* padding: 10px; */
+}
+
+.footer-container {
+  background-color: #29b24e;
+  display: flex;
+  flex-direction: column;
   max-width: 1640px;
   width: 100%;
-  margin: 120px auto 0 auto;
+  margin: 0 auto;
   padding: 10px;
 }
 
