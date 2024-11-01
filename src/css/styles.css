@@ -209,6 +209,15 @@ input[type="checkbox"]:checked {
   border-bottom-left-radius: 0;
 }
 
+.search-button-2 {
+  display: none;
+  border-radius: 22px;
+  background-color: #f8f8f8cc;
+  border: none;
+  height: 48px;
+  padding: 15px;
+}
+
 .card-section {
   max-width: 1640px;
   width: 100%;
@@ -392,4 +401,109 @@ footer {
 
 .copyright a {
   color: #ffffff;
+}
+
+@media (max-width: 1024px) {
+  header {
+    max-width: 375px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .Logo {
+    margin: 38px 0 28px 20px;
+  }
+
+  header nav,
+  .Header-button {
+    display: none;
+  }
+
+  .section-1 {
+    flex-direction: column-reverse;
+  }
+
+  .Find {
+    max-width: 335px;
+    height: 435px;
+    background-image: url(../images/Rectangle-400-2.png);
+    background-size: 335px 435px;
+    background-repeat: no-repeat;
+  }
+  .find-1 {
+    max-width: 241px;
+    display: flex;
+    /* margin: 60px 0 10px 0; */
+    font-family: "poppins";
+    font-weight: 600;
+    font-size: 24px;
+    text-align-last: center;
+  }
+
+  .find-2 {
+    /* margin: 0 0 40px 0; */
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .find-3 input {
+    display: none;
+  }
+
+  .search-button-2 {
+    display: flex;
+    border-radius: 22px;
+    margin-right: 22px;
+  }
+
+  .section-1 {
+    display: flex;
+    max-width: 375px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    gap: 20px;
+  }
+
+  .card-section {
+    max-width: 375px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .card {
+    max-width: 335px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  footer {
+    background-color: #29b24e;
+    display: flex;
+    flex-direction: column;
+    max-width: 375px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 24px;
+    margin: 50px auto 0 auto;
+    padding: 10px;
+  }
+
+  .footer-nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+  }
+
+  .mail {
+    display: none;
+  }
+
+  .copyright {
+    padding: 40px 0;
+  }
 }
