@@ -52,6 +52,15 @@ header li:hover {
   border-bottom: 2px solid #29b24e;
 }
 
+.search-button-2 {
+  display: none;
+  border-radius: 22px;
+  background-color: #f8f8f8cc;
+  border: none;
+  height: 48px;
+  padding: 15px;
+}
+
 .Header-button {
   background-color: #29b24e;
   color: #ffffff;
@@ -488,6 +497,23 @@ footer {
 
 @media (max-width: 1024px) {
   Header {
+    max-width: 375px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .Logo {
+    margin: 38px 0 28px 20px;
+  }
+
+  .search-button-2 {
+    display: flex;
+    border-radius: 22px;
+    margin-right: 22px;
+  }
+
+  header nav,
+  .Header-button {
     display: none;
   }
 
@@ -669,7 +695,7 @@ footer {
     width: 100%;
     margin: 0 auto;
     border-radius: 24px;
-    margin: 50px auto 0 auto;
+    margin: 50px auto 172px auto;
     padding: 10px;
   }
 
@@ -686,7 +712,15 @@ footer {
   .copyright {
     padding: 40px 0;
   }
+
   .mobile-panel {
+    max-width: 375px;
+    width: 100%;
+    margin: 0 auto;
     display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
 }

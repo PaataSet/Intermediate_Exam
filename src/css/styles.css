@@ -117,6 +117,9 @@ input[type="checkbox"]:checked {
 
 select {
   padding: 13px 0 14px 18px;
+  background: #f8f8f8;
+  border: 1px solid rgba(13, 156, 164, 0.21);
+  border-radius: 10px;
 }
 
 .Property {
@@ -354,6 +357,7 @@ footer {
   max-width: 1920px;
   width: 100%;
   margin: 0 auto;
+
   border-radius: 25px;
   margin: 120px auto 0 auto;
   /* padding: 10px; */
@@ -545,7 +549,7 @@ footer {
     width: 100%;
     margin: 0 auto;
     border-radius: 24px;
-    margin: 50px auto 0 auto;
+    margin: 50px auto 172px auto;
     padding: 10px;
   }
 
@@ -563,6 +567,13 @@ footer {
     padding: 40px 0;
   }
   .mobile-panel {
+    max-width: 375px;
+    width: 100%;
+    margin: 0 auto;
     display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
 }
