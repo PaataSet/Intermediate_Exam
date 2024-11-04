@@ -64,6 +64,7 @@ header li:hover {
 
 .section-1 {
   display: flex;
+  /* flex-wrap: wrap; */
   max-width: 1640px;
   width: 100%;
   margin: 0 auto;
@@ -154,6 +155,7 @@ select {
   max-width: 1225px;
   width: 100%;
   margin: 0 auto;
+  height: 751px; /* ზომის არაფიქსირებული მითითება იწვევს ძირის მოჭრას */
   background-image: url(../images/Rectangle-400.png);
   display: flex;
   flex-direction: column;
@@ -498,6 +500,10 @@ footer {
   }
 
   .find-3 input {
+    display: none;
+  }
+
+  .search-button {
     display: none;
   }
 
