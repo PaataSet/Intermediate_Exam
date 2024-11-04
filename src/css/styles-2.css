@@ -166,7 +166,8 @@ top: 146px; */
 }
 
 .lite-describe {
-  /* border: 1px solid black; */
+  border-top: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
   padding: 16px 0;
   display: flex;
   gap: 24px;
@@ -199,7 +200,7 @@ h5 {
   font-family: "poppins";
   font-weight: 400;
   font-size: 14px;
-  margin: 14px 0 4px 0;
+  /* margin: 14px 0 4px 0; */
 }
 
 .describe-1 p {
@@ -209,7 +210,7 @@ h5 {
 }
 
 .price-section {
-  /* border: 1px solid black; */
+  border-top: 1px solid #ececec;
 
   /* margin: 27px 0 28px 0; */
   display: flex;
@@ -228,6 +229,7 @@ h5 {
 
 .price-internal {
   /* border: 1px solid black; */
+  padding: 24px 0 24px 54px;
   color: #29b24e;
   font-family: "poppins";
   font-weight: 600;
@@ -321,6 +323,9 @@ h5 {
   font-family: "poppins";
   font-weight: 500;
   font-size: 12px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
 }
 
 .cardmark-internal {
@@ -334,7 +339,7 @@ h5 {
   position: absolute;
   /* top: 150px; */
   right: 20px;
-  bottom: 30px;
+  bottom: 0;
   /* left: 30px; */
   /* transform: translate(319px, -20px); */
 }
@@ -365,6 +370,7 @@ h4 {
   font-family: "poppins";
   font-weight: 400;
   font-size: 12px;
+  margin-bottom: 16px;
 }
 
 .price-card-internal {

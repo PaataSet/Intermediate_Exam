@@ -29,6 +29,7 @@ header {
   max-width: 1640px;
   width: 100%;
   margin: 0 auto;
+  /* padding-right: 20px; */
 }
 
 .Logo {
@@ -182,6 +183,7 @@ select {
 .find-3 {
   display: flex;
   float: left;
+  border-radius: 10px;
   font-family: "poppins";
   font-weight: 400;
   font-size: 14px;
@@ -205,10 +207,11 @@ select {
 .find-3-search {
   flex-direction: row-reverse;
   align-items: center;
+  box-shadow: 0px 4px 10px rgba(124, 124, 124, 0.27);
 }
 
 .search-button {
-  background-color: #f8f8f8cc;
+  background-color: rgba(248, 248, 248, 0.8);
   border: none;
   height: 48px;
   padding: 15px;
@@ -216,15 +219,17 @@ select {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 0;
+  box-shadow: 0px 4px 10px rgba(124, 124, 124, 0.27);
 }
 
 .search-button-2 {
   display: none;
-  border-radius: 22px;
+  border-radius: 24px;
   background-color: #f8f8f8cc;
   border: none;
   height: 48px;
   padding: 15px;
+  box-shadow: 0px 4px 25px rgba(194, 194, 194, 0.31);
 }
 
 .card-section {
@@ -328,6 +333,7 @@ h4 {
   font-family: "poppins";
   font-weight: 400;
   font-size: 12px;
+  margin-bottom: 16px;
 }
 
 .price {
